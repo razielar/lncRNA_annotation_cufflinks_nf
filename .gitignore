@@ -1,3 +1,7 @@
 
+#Ignore Singularity image:
 *.simg
 
+#logs 
+*.nextflow
+.nextflow.log*
