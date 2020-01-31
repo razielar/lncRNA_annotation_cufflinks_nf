@@ -5,3 +5,6 @@
 #logs 
 *.nextflow
 .nextflow.log*
+
+results/
+work/
