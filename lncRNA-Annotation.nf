@@ -95,7 +95,7 @@ process index {
     //
     """
         mkdir STARgenome
-        STAR --runThreadN ${task.cpus} \
+        STAR --runThreadN 8  \
              --runMode genomeGenerate \
              --genomeDir STARgenome \
              --genomeFastaFiles ${genomeFile} \
